@@ -63,7 +63,7 @@ int meterToFeet(int valor){
 int main(int argc, char *argv[]) {
 	int op = 0;
 	int valor = 0;
-	printf("Opciones:\n1.Celsius a fahrenheit\n2.Fahrenheit a celsius\n3.Celsius a kelvin\n4.Kelvin a celsius\n5.Kelvin a fahrenheit\n6.Fahrenheit a kelvin\n");
+	printf("\n--CONVERSOR DE UNIDADES--\nOpciones:\n1.Celsius a Fahrenheit\n2.Fahrenheit a Celsius\n3.Celsius a Kelvin\n4.Kelvin a Celsius\n5.Kelvin a Fahrenheit\n6.Fahrenheit a Kelvin\n7.Kilometros a Millas\n8.Metros a Yardas\n9.Metros a Pies\n");
 	
 	scanf("%i",&op);
 	
@@ -71,51 +71,51 @@ int main(int argc, char *argv[]) {
 	if (op==1){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\ncelsiusToFahrenheit: %i\n",celsiusToFahrenheit(valor));
+		printf("\n\tcelsiusToFahrenheit: %i\n",celsiusToFahrenheit(valor));
 		
 	}else if(op==2){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nfahrenheitToCelsius: %i\n",fahrenheitToCelsius(valor));
+		printf("\n\tfahrenheitToCelsius: %i\n",fahrenheitToCelsius(valor));
 		
 	}else if(op==3){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\ncelsiusToKelvin: %i\n",celsiusToKelvin(valor));
+		printf("\n\tcelsiusToKelvin: %i\n",celsiusToKelvin(valor));
 		
 	}else if(op==4){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nkelvinToCelsius: %i\n",kelvinToCelsius(valor));
+		printf("\n\tkelvinToCelsius: %i\n",kelvinToCelsius(valor));
 		
 	}else if(op==5){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nkelvinToFahrenheit: %i\n",kelvinToFahrenheit(valor));
+		printf("\n\tkelvinToFahrenheit: %i\n",kelvinToFahrenheit(valor));
 		
 	}else if(op==6){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nfahrenheitToKelvin: %i\n",fahrenheitToKelvin(valor));
+		printf("\n\tfahrenheitToKelvin: %i\n",fahrenheitToKelvin(valor));
 
 //OPCIONES PARA FUNCIONES DE DISTANCIA
 	}else if(op==7){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nkilometerToMile: %i\n",kilometerToMile(valor));
+		printf("\n\tkilometerToMile: %i\n",kilometerToMile(valor));
 
 	}else if(op==8){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nmeterToYard: %i\n",meterToYard(valor));
+		printf("\n\tmeterToYard: %i\n",meterToYard(valor));
 
 	}else if(op==9){
 		printf("Ingrese valor:");
 		scanf("%i",&valor);
-		printf("\nmeterToFeet: %i\n",meterToFeet(valor));
+		printf("\n\tmeterToFeet: %i\n",meterToFeet(valor));
 
 	}else{
-		printf("\nOpcion Invalida!: Reinicie el programa\n");
+		printf("\n\tOpcion Invalida!: Reinicie el programa\n");
 		return 0;
 	}
 	
